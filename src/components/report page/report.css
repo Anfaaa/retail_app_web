@@ -1,0 +1,100 @@
+.report-container {
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Фильтры */
+.report-container .filters {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.report-container .filters label {
+    font-size: 14px;
+    color: #495057;
+}
+
+.report-container .filters input {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border 0.2s ease;
+}
+
+.report-container .filters input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.report-container .filters button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 16px;
+}
+
+.report-container .filters button:hover {
+    background-color: #0056b3;
+}
+
+/* Стиль для отчета */
+.report-container .report {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #343a40;
+}
+
+.report-container .report p {
+    margin: 10px 0;
+}
+
+/* Список заказов */
+.report-order-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.report-order-list li {
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.report-order-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для информации в заказах */
+.report-order-list li strong {
+    font-size: 14px;
+    color: #007bff;
+}
+
+.report-order-list li p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.report-order-list h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 15px;
+}
